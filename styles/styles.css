@@ -1,0 +1,64 @@
+/* CSS Reset  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'Roboto', sans-serif;
+}
+
+
+.hero-container {
+    background-image: url(../images/Hero-1.png);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    position: relative;
+    /* padding: 20px; */
+    color: white;
+}
+
+/* Header & Navigation Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo > a {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav > .nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    }
+
+    .nav {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+}
+
+ .nav > .nav-links > li > a {
+     color: #fff;
+     text-decoration: none;
+     font-size: 16px;
+     font-weight: 500;
+    }
+
+  .nav-btn {
+     background-color: #fff;
+     
+     
+
+
+ }
