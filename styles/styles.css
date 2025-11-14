@@ -325,10 +325,14 @@ header {
             right: -50px;
         }
 
-        .bottom-left {
+        .middle-left {
             top: 50%;
-            left: -50px;
-            transform
+            left: -50px;   
+        }
+
+        .bottom-right {
+            bottom: 20px;
+            right: -30px;
         }
 
 
